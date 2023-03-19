@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
-zsh helper.zsh
+# Get helper functions and variables
+source helper.zsh
 
 # Export environment variables and define local URLS
 export ZSH="${DOTFILES}/oh-my-zsh"

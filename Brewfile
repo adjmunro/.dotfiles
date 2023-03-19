@@ -5,7 +5,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "jdxcode/tap/rtx"
 
 #echo sudo pam.d sufficient pamid?
 brew "bat"			# Rusty `cat` w/ syntax highlighting + git integration
@@ -16,7 +15,7 @@ brew "fzf"			# Command-line fuzzy finder!
 brew "gh"			# GitHub CLI
 brew "git"			# Everyone needs Git.
 brew "git-lfs"		# Git Large File Storage
-brew "gnugp"		# GNU Pretty Good Privacy (PGP)
+brew "gnupg"		# GNU Pretty Good Privacy (PGP)
 brew "mas"			# Mac App Store (cli app store access)
 #brew "neovim"		# Neovim!!!
 brew "openjdk@11"	# Java 11
